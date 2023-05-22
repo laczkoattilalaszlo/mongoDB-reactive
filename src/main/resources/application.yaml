@@ -1,0 +1,10 @@
+server:
+  error:
+    include-message: always   # Since the Spring Boot 2.3 release, error messages are no longer included in the server?s responses by default.
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: testDB        # Sets the database that your Spring Boot application will interact with.
